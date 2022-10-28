@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">InnoCV Project</string>
+    <string name="title_users">Usuarios</string>
+    <string name="title_add_user">Añadir usuario</string>
+    <string name="title_settings">Opciones</string>
+    <string name="title_user_detail">Usuario</string>
+    <string name="user_detail_button_delete">Borrar usuario</string>
+    <string name="settings_button_test_server">Comprobar conexión</string>
+    <string name="settings_dropdown_choose_language">Elegir idioma</string>
+    <string name="home_textinput_search_hint">Nombre de usuario</string>
+    <string name="add_user_textinput_birthdate_hint">Fecha de nacimiento</string>
+    <string name="add_user_button_create_user">Crear usuario</string>
+    <string-array name="languages">
+        <item>Inglés</item>
+        <item>Español</item>
+    </string-array>
+    <string name="user_detail_user_removed">Usuario eliminado.</string>
+    <string name="user_detail_error_removing_user">Error eliminando usuario.</string>
+    <string name="settings_conexion_ok">Conexión con el servidor correcta.</string>
+    <string name="settings_conexion_error">Error conectando con el servidor.</string>
+    <string name="add_user_user_created_ok">Usuario creado</string>
+    <string name="add_user_user_created_error">Error creando usuario.</string>
+</resources>

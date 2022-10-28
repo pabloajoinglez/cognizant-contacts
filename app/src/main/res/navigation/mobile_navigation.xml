@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_users">
+
+    <fragment
+        android:id="@+id/navigation_users"
+        android:name="com.example.innocvproject.ui.HomeFragment"
+        android:label="@string/title_users"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_navigation_users_to_navigation_user_detail"
+            app:destination="@id/navigation_user_detail" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_add_user"
+        android:name="com.example.innocvproject.ui.AddUserFragment"
+        android:label="@string/title_add_user"
+        tools:layout="@layout/fragment_add_user" />
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.example.innocvproject.ui.SettingsFragment"
+        android:label="@string/title_settings"
+        tools:layout="@layout/fragment_settings" />
+
+    <fragment
+        android:id="@+id/navigation_user_detail"
+        android:name="com.example.innocvproject.ui.UserDetailFragment"
+        android:label="@string/title_user_detail"
+        tools:layout="@layout/fragment_user_detail" />
+</navigation>
