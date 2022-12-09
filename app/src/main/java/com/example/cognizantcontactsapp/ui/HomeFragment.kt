@@ -64,8 +64,8 @@ class HomeFragment : Fragment(){
             }
         }
 
-        val CTF_JAVA_i = "basic string"
-        val CTF_JAVA_ENCRYPTED_s = "uARCG@Z"
+        val string_1 = "CTF_JAVA_i"
+        val bindingString = "NYKRGL[LRHCN_T]YHIR~"
 
         //Configure Picasso img
         val imageUri = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhqI4txTRkj4_pCfr3NlNdbCbLYgX-nqjMX8wHEfx_A6Q8luaudlecd84nMDGZ1a4nwA0&usqp=CAU"
@@ -75,7 +75,7 @@ class HomeFragment : Fragment(){
         //Configure Native string
         binding.nativeString.setText(MainActivity.helloWorld())
 
-        val decrypted_str = b.c(CTF_JAVA_ENCRYPTED_s)
+        val decrypted_str = b.c(bindingString)
 
         return binding.root
     }

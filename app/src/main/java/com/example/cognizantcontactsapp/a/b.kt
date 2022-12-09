@@ -5,7 +5,7 @@ class b {
     companion object {
 
         fun c(plaintext : String) : String{
-            val key = "4456"
+            val key = "sd"
             //To char[]
             //To char[]
             val char_plaintext : CharArray = plaintext.toCharArray()
