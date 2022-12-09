@@ -7,7 +7,7 @@ jstring Java_com_example_cognizantcontactsapp_ui_MainActivity_00024Companion_hel
 }
 
 jstring Java_com_example_cognizantcontactsapp_ui_MainActivity_00024Companion_x(JNIEnv* env, jobject obj){
-    return (*env)->NewStringUTF(env,"Native CTF");
+    return (*env)->NewStringUTF(env,"CTF_ELF_v");
 }
 
 jstring Java_com_example_cognizantcontactsapp_ui_MainActivity_00024Companion_decY(JNIEnv* env, jobject obj, jstring j_input){
@@ -18,7 +18,7 @@ jstring Java_com_example_cognizantcontactsapp_ui_MainActivity_00024Companion_dec
 
     char* output = malloc(sizeof(char) * strlen(input));
 
-    char key[3] = {'A', '8', 'C'};
+    char key[2] = {'3', '4'};
 
     int i;
     for (i = 0; i < strlen(input); i++)

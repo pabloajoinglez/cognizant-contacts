@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity(R.layout.activity_main) {
         setContentView(binding.root)*/
         super.onCreate(savedInstanceState)
 
-        val CTF_ELF_v = MainActivity.x()
+        val startCode = MainActivity.x()
 
         if (savedInstanceState == null) {
             supportFragmentManager.commit {

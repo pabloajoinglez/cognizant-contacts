@@ -50,8 +50,8 @@ class HomeFragment : Fragment(){
             binding.fragmentUserListRecyclerView.adapter = adapter
         })
 
-        val huhu = "1Y!-W" //1Y!-W
-        val CTF_ELF_ENCRYPTED_l = MainActivity.decY(huhu)
+        val huhu = "p`ukvxukvzpfjdgqwkW" //1Y!-W
+        val huhu2 = MainActivity.decY(huhu)
 
         //Configure post button
         binding.fragmentBtnPost.setOnClickListener {
@@ -65,7 +65,7 @@ class HomeFragment : Fragment(){
         }
 
         val string_1 = "CTF_JAVA_i"
-        val bindingString = "NYKRGL[LRHCN_T]YHIR~"
+        val bindingString = "005;9%%%,!='!=#06 ,0"
 
         //Configure Picasso img
         val imageUri = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhqI4txTRkj4_pCfr3NlNdbCbLYgX-nqjMX8wHEfx_A6Q8luaudlecd84nMDGZ1a4nwA0&usqp=CAU"
