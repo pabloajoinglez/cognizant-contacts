@@ -24,6 +24,13 @@
             android:layout_height="wrap_content"
             android:text="NATIVE STRING"/>
 
+        <TextView
+            android:id="@+id/abc"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/abcd"/>
+
     </LinearLayout>
 
     <RelativeLayout

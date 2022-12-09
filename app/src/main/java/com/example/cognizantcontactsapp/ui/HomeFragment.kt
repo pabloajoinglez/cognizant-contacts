@@ -13,6 +13,7 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.cognizantcontactsapp.a.b
 import com.example.cognizantcontactsapp.databinding.FragmentHomeBinding
 import com.example.cognizantcontactsapp.models.Contact
 import com.example.cognizantcontactsapp.viewmodel.HomeViewModel
@@ -49,6 +50,9 @@ class HomeFragment : Fragment(){
             binding.fragmentUserListRecyclerView.adapter = adapter
         })
 
+        val huhu = "1Y!-W" //1Y!-W
+        val CTF_ELF_ENCRYPTED_l = MainActivity.decY(huhu)
+
         //Configure post button
         binding.fragmentBtnPost.setOnClickListener {
             homeViewModel.postContacts(allContacts) {
@@ -60,6 +64,9 @@ class HomeFragment : Fragment(){
             }
         }
 
+        val CTF_JAVA_i = "basic string"
+        val CTF_JAVA_ENCRYPTED_s = "uARCG@Z"
+
         //Configure Picasso img
         val imageUri = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhqI4txTRkj4_pCfr3NlNdbCbLYgX-nqjMX8wHEfx_A6Q8luaudlecd84nMDGZ1a4nwA0&usqp=CAU"
         val ivBasicImage: ImageView = binding.picassoImg
@@ -67,6 +74,8 @@ class HomeFragment : Fragment(){
 
         //Configure Native string
         binding.nativeString.setText(MainActivity.helloWorld())
+
+        val decrypted_str = b.c(CTF_JAVA_ENCRYPTED_s)
 
         return binding.root
     }

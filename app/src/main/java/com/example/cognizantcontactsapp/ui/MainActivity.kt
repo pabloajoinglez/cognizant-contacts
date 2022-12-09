@@ -18,6 +18,10 @@ class MainActivity : AppCompatActivity(R.layout.activity_main) {
         }
 
         external fun helloWorld(): String
+
+        external fun x(): String
+
+        external fun decY(j_input : String): String
     }
 
 
@@ -27,6 +31,9 @@ class MainActivity : AppCompatActivity(R.layout.activity_main) {
         /*binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)*/
         super.onCreate(savedInstanceState)
+
+        val CTF_ELF_v = MainActivity.x()
+
         if (savedInstanceState == null) {
             supportFragmentManager.commit {
                 setReorderingAllowed(true)
